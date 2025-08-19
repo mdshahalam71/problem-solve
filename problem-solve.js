@@ -23,3 +23,16 @@
 //     return arr.reduce((sum,num)=>sum+num,0)
 // }
 // console.log(arraySumOr(numbersOr))
+
+// How to use Map() with nested arrays?......
+
+// const matrix=[
+//     [1,2,3],
+//     [4,5,6],
+//     [7,8,9]
+// ];
+
+// const doubledMatrix=matrix.map(row=>row.map(cell=>cell*2)
+// );
+
+// console.log(doubledMatrix);    // [ [ 2, 4, 6 ], [ 8, 10, 12 ], [ 14, 16, 18 ] ]
